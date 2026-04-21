@@ -29,4 +29,3 @@ resource "grafana_synthetic_monitoring_check" "Synthetics_HttpCheck" {
     }
   }
 }
-
