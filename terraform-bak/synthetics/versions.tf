@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "larsknutson-devmio"
+    organization = "Grafana_Synthetics_Workshop"
 
     workspaces {
       name = "grafana-synthetics-main"
@@ -16,4 +16,3 @@ terraform {
     }
   }
 }
-
