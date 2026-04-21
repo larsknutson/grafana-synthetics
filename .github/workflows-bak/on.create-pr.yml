@@ -39,7 +39,7 @@ jobs:
           cli_config_credentials_token: ${{ secrets.TF_STATE_TOKEN }}
           
       - name: Terraform Format Check
-        run: terraform fmt -check -recursive
+        run: terraform fmt -check -recursive terraform
         
       - name: Terraform Init
         run: terraform init
